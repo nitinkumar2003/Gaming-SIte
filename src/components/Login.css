@@ -1,0 +1,53 @@
+.margin-padding{
+    margin-top: 100px;
+}
+.Login_logo_men{
+    border-radius: 100px;
+}
+.card {
+    background-color: #00544f;
+    width: 500px
+}
+
+.form-control {
+    background-color: #00544f;
+    border: none;
+    border-bottom: 1px solid #eee;
+    border-radius: 1px;
+    padding: 2px;
+    padding-bottom: 8px
+}
+
+.form-control:focus {
+    background-color: #00544f;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    color: #fff
+}
+
+.btn-secondary {
+    height: 50px;
+    border-radius: 30px
+}
+
+.terms {
+    font-size: 13px
+}
+
+.background-image{
+    /*background: url(https://hindi.cdn.zeenews.com/hindi/sites/default/files/2021/01/15/739713-indian-army-4.jpg);*/
+/*background: url(https://www.storyofsouls.com/wp-content/uploads/2020/06/Indian-Army-HD-Wallpaper-for-Android-APK-Download-1-576x1024.jpg);*/
+/*background: url(https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/10/14/Pictures/rehearsal-republic-day_d110423e-cfbb-11e8-a159-d4219452a912.jpg);*/
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+   
+}
+.login_register_now{
+    color: whitesmoke;
+text-align: left;
+text-decoration: none;
+}
+
+
+

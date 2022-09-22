@@ -1,0 +1,65 @@
+
+.navbar-center {
+            position: relative;
+            left: 50%;
+            transform: translatex(-50%);
+        }
+.navbar-heading_GAMING{
+    font-family: fantasy;
+}
+
+.NavVideo_h_color{
+    /*padding: 15px;*/
+    margin-top:;
+    color: whitesmoke;
+    /*background-color:grey;*/
+    /*font-family: fantasy;*/
+    font-size: 40px;
+    /*word-spacing: 1px;*/
+    /*text-align: center;*/
+    
+}
+.NavVideo_p_color{
+    color: white;
+    /*font-family: fantasy;*/
+    /*font-size: 20px;*/
+    text-align: justify;
+
+
+}
+.NavVideo-news_color{
+    color: white;
+}
+
+.NavVideo_h_color_news{
+    padding: 15px;
+    margin-top:;
+    color: whitesmoke;
+    /*background-color:grey;*/
+    font-family: fantasy;
+    font-size: 40px;
+    word-spacing: 1px;
+    text-align: center;
+    
+}
+
+
+.about_p{
+    text-align: justify;
+    /*color: black;*/
+    color: white;
+    /*font-family: monospace;*/
+    font-family: sans-serif;
+    /*padding: 20px;*/
+    position: relative;
+    /*width: 58%;*/
+    /*height: 80vh;*/
+}
+
+.admin_dasboard_search_box{
+    width: 400px;
+    margin: 20px;
+    height: 40px;
+    border: 1px solid skyblue;
+    padding-left: 20px;
+}

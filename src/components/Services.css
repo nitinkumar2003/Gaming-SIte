@@ -1,0 +1,89 @@
+
+.textcolor{
+   color: black;
+}
+.parent{
+   height:600px;
+background: url(https://www.pcgamesn.com/wp-content/uploads/2018/12/atlas-launch-hydra.jpg);
+/*background: url(https://www.storyofsouls.com/wp-content/uploads/2020/06/Indian-Army-HD-Wallpaper-for-Android-APK-Download-1-576x1024.jpg);*/
+/*background: url(https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/10/14/Pictures/rehearsal-republic-day_d110423e-cfbb-11e8-a159-d4219452a912.jpg);*/
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.about_image_size{
+    border-radius: 10px;
+    margin-left: 60px;
+    /*width: 500px;*/
+    height: 600px;
+    /*padding: 10px;*/
+    /*float: right;*/
+    /*margin: auto;*/
+    /*align-items: center;*/
+}
+
+.textcolor{
+   margin-top: 100px;
+   /*color: white;*/
+   padding: 20px;
+}
+.services_p{
+   color: aquamarine;
+   font-weight: bold;
+   color: white;
+}
+.services_p:hover{
+   color: red;
+}
+.services_heading {
+    /*position: absolute;*/
+    /*top: 50%; */
+    /*right: 50%;*/
+    /*transform: translate(50%,-50%);*/
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 3em;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+.services_explore1{
+   /*padding: 10px;*/
+ color: white;
+ text-align: justify;
+ font-family: sans-serif;
+ font-size: 20px;
+}
+.game_hub{
+   margin: auto;
+   /*width: 700px;*/
+   color: white;
+   font-family: sans-serif;
+   font-size: 20px;
+}
+
+.services_services1234_border{
+   border-radius: 30px;
+}
+ .services_services1234_h{
+   margin-top: 100px;
+   font-family: fantasy;
+ }
+ .services_services1234_p{
+   /*margin-top: 200px;*/
+   /*width: 600px;*/
+   text-align: justify;
+   font-family: monospace;
+ }
