@@ -3,6 +3,7 @@ import {Link,useNavigate} from 'react-router-dom';
 
 function Nav(){
   const auth=localStorage.getItem('users');
+  console.log("authauth",JSON.parse(auth).name)
   const navigate=useNavigate();
   const logout=()=>{
     localStorage.clear();
@@ -44,7 +45,7 @@ function Nav(){
           <Link className="nav-link" to="/admindashboard">Dashboard</Link>
         </li>
             <li className="nav-item">
-            <Link className="nav-link" to="/signup" onClick={logout}>logout</Link>
+            <Link className="nav-link" to="/signup" onClick={logout}>logout {(JSON.parse(auth).name)}</Link>
           {/*<Link className="nav-link active" to="/signup" onClick={logout}>Logout({JSON.parse(auth).name})</Link>*/}
         </li>
         

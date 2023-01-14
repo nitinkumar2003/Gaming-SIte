@@ -70,8 +70,8 @@ onChange={searchHandle}
     <tr className="table-dark">
       <th scope="col">S.No.</th>
       <th scope="col">Name</th>
-      <th scope="col">From Date</th>
-      <th scope="col">To Date</th>
+      <th scope="col">Email</th>
+      <th scope="col">Password</th>
       <th scope="col">Operation</th>
     </tr>
   </thead>

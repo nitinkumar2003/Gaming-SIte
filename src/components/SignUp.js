@@ -23,7 +23,9 @@ useEffect(()=>{
 
 	const collectdata=async()=>{
 	console.log(name,email,password)
-	let result=await fetch('http://localhost:4000/signup',{
+	if(name!=='' && email !=='' && password!==''){
+
+		let result=await fetch('http://localhost:4000/signup',{
 		method:"post",
 		body:JSON.stringify({name,email,password}),
 		headers:{
@@ -37,6 +39,10 @@ useEffect(()=>{
 		navigate('/')
 	
 		}
+	}else{
+		alert("all field is required")
+	}
+	
 	}
 
 	return(
