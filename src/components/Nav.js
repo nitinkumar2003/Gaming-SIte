@@ -45,7 +45,7 @@ function Nav(){
           <Link className="nav-link" to="/admindashboard">Dashboard</Link>
         </li>
             <li className="nav-item">
-            <Link className="nav-link" to="/signup" onClick={logout}>logout {(JSON.parse(auth).name)}</Link>
+            <Link className="nav-link" to="/signup" onClick={logout}>logout {(JSON.parse(auth)?.name)}</Link>
           {/*<Link className="nav-link active" to="/signup" onClick={logout}>Logout({JSON.parse(auth).name})</Link>*/}
         </li>
         
